@@ -1,0 +1,44 @@
+#Pessoa POST
+
+{
+"nome": "Daniel",
+"email": "daniel@gmail.com",
+"nascimento": "2022-09-18T23:45:58.101+00:00",
+"sexo": "Masculino",
+"cpf": "123456789",
+"rg":"123456789",
+"ts":"A+",
+"pai":"Tassio",
+"mae":"Tassia"
+}
+
+#telefone POST
+
+{
+  "telefone_celular": 1234567,
+  "telefone_fixo": 12344567,
+  "pessoa":{
+      "idpessoa": 1
+  }
+}
+
+
+}
+
+#endereco POST
+
+{
+"cep": "1234567",
+"tipo_logradouro": "avenida",
+"logradouro": "Rua faculdade",
+"numero": 117,
+"bairro": "Teste",
+"cidade":"Vassouras",
+"estado":"Rio de Janeiro",
+"pais":"Brasil",
+"pessoa":{
+    "idpessoa": 1
+}
+}
+
+#
